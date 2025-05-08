@@ -15,11 +15,11 @@ number : 2 to power of 53
 bigint
 string : '' and ""
 boolean : true and false
-null : standalone value (using typeof on null it shows object)
+null : standalone value (using typeof on null it shows object), typeof of null is object.
 undefined : value not assigned (using typeof on undefined it shows undefined. Since, it is a type itself)
 symbol : uniqueness, mostly used in react and figma
 
-2. Non-Primitive Datatype => object
+2. Non-Primitive Datatype => object, Array, Functions(typeof is function, but consider as function object).
 */
 
 console.log(typeof undefined)
